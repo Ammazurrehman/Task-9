@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(0, 255, 136);
+    box-sizing: border-box;
+}
+.question-container{
+    height: 80vh;
+    width: 60vw;
+    /* border: 1px solid; */
+    margin: 100px auto;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 10px rgb(104, 101, 101);
+    color: rgb(7, 201, 110) ;
+    
+}
+#question{
+    height: 5vh;
+    width: 80%;
+    /* border: 1px solid black; */
+    /* display: flex;
+    align-self: center; */
+}
+.btn{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    height: 30vh;
+    width: 80%;
+    text-align: center;
+    padding: 20px;
+    
+
+    /* border: 1px solid; */
+}
+.hh{
+    height: 6vh;
+    width: 20vw;
+    border: 1px solid;
+}
+.btnnn{
+    height: 6vh;
+    width: 15vw;
+    border: 1px solid transparent;
+    background-color: rgb(253, 253, 253);
+    border-radius: 10px;
+    outline: none;
+    border:2px solid rgb(0, 255, 136);
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+hr{
+    height: 4px;
+    width: 80%;
+    background-color: rgb(3, 201, 108);
+    border: none;
+    margin-top: 20px;
+}
+h1{
+    padding-bottom: 20px ;
+}
+.btnnn:hover{
+cursor: pointer;
+color: white;
+background-color: rgb(0, 255, 136);
+border:2px solid rgb(0, 255, 136);
+}
+
+/* name page*/
+#form{
+    height: 20vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid gainsboro;
+    margin: 200px auto;
+    border-radius: 20px;
+}
+#inp1{
+    height: 5vh;
+    width: 10vw;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid wheat;
+    outline: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+}
+#btnn{
+    height: 4vh;
+    width: 10vw;
+    background-color: teal;
+    color: wheat;
+    outline: none;
+    border: transparent;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+}
+#btnn:hover{
+    background-image: linear-gradient(to right,rgb(3, 62, 85),rgb(0, 255, 179));
+    border: 2px solid rgb(114, 114, 110);
+    cursor: pointer;
+
+}
+.next{
+    height: 5vh;
+    width: 8vw;
+    background-color: rgb(0, 255, 136);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 200px;
+    margin-bottom: 10px;
+    outline: none;
+}
+.next:hover{
+    color: rgb(0, 255, 136);
+    background-color: white;
+    cursor: pointer;
+    border: 2px solid rgb(0, 255, 136);
+}
+.active{
+    background-color: rgb(0, 255, 136);
+    color: white;
+}
+
+/* End page ccs */
+
+.wrapper{
+    height: 20vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px auto;
+}
+.awad{
+    font-size: 300px;
+    color: white;
+    padding-bottom: 50px;
+}
+.username,.user_points,.totalpoi{
+    font-size: 30px;
+    color: white;
+}
+
+/* media query */
+/* 
+@media screen and (max-width:400px) and (min-width: 200px){
+
+    .question-container{
+        height: 80vh;
+        width: 80%;
+        margin: 20px auto;
+    }
+
+
+} */
